@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Landing Page</title>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet" />
+  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="page-header">
+    <nav class="navbar-menu">
+      <!-- Empty UL that will be populated with JS -->
+      <ul id="navbar-list"></ul>
+    </nav>
+  </header>
+  <main>
+    <header class="main__hero" style="text-align: center;">
+      <img src="img/Bose.png" alt="logo">
+    </header>
+    <!-- section 1 -->
+    <section id="section1" data-nav="Home">
+
+      <div class="container">
+        <div>
+          <h1>Wireless.</h1>
+          <h1>Effortless. <b>Magical</b></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+            repudiandae rerum libero ipsum asperiores omnis mollitia, nostrum
+            commodi placeat ea itaque modi corrupti corporis nam voluptas aut
+            reprehenderit eaque culpa.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <img class="showcase" src="img/showcase.jpg" width="700" height="700" alt="headPhone"
+          style="margin-top: 30px;" />
+      </div>
+
+    </section>
+
+
+    <section id="section2" class="section-mid" data-nav="About">
+      <div class="overlay">
+        <div class="section-mid-inner">
+          <h3 class="text-2">noise cancelling</h3>
+          <h2 class="text-5 ">Quiet Comfort Wireless Headphones</h2>
+          <p>
+            QuietComfort wireless headphones are engineered with renowned noise cancellation that makes quiet sound
+            quieter and your music sound better. With the Google Assistant and Amazon Alexa built in, you have instant
+            access to millions of songs, playlists, and more — hands free.* Simply choose your voice assistant and ask
+            away. And that’s just the beginning.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="section3" class="section-bot" data-nav="gallery">
+      <div class="gallery">
+        <a href="#" class="big"><img src="img/1.jpg" alt="img1" /></a>
+        <a href="#" class="big"><img src="img/2.jpg" alt="img2" /></a>
+        <a href="#" class="big"><img src="img/3.jpeg" width="700" height="700" alt="img3" /></a>
+        <a href="#" class="big">
+          <img src="img/4.jpg" alt="img4" /></a>
+        <a href="#" class="big"><img src="img/5.jpg" alt="img5" /></a>
+        <a href="#" class="big">
+          <img src="img/6.jpg" alt="img6" /></a>
+      </div>
+    </section>
+
+    <section id="Contact" class="contact" data-nav="Contact">
+      <div class="contact-title">
+        <h3 class="contact-title-1">GET QUOTE</h3>
+        <h2 class="contact-title-2">Make An</h2>
+        <h2 class="contact-title-3">Free Consultant</h2>
+      </div>
+
+      <div class="form-control">
+        <input class="input-1" type="text" placeholder="Name">
+        <input class="input-2" type="Phone" placeholder="Phone">
+        <input class="input-3" type="Email" placeholder="Email">
+        <input class="input-4" type="Website" placeholder="Website">
+        <textarea class="input-5" maxlength="100" name="Your Message" placeholder="Your Message" id="" cols="20"
+          rows="7"></textarea>
+      </div>
+      <a class="button btn" href="#">Free Consultancy</a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer" class="page__footer" data-nav="footer">
+    <div class="container">
+      <div>
+        <h2 class="text-2 ">AUDIO FOR LIFE.</h2>
+        <a href="http://twitter.com">
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
+        <a href="http://facebook.com">
+          <i class="fab fa-facebook fa-2x"></i>
+        </a>
+        <a href="http://youtube.com">
+          <i class="fab fa-youtube fa-2x"></i>
+        </a>
+      </div>
+      <div>
+        <h3>Company Info</h3>
+        <ul class="list">
+          <li><a href="#">All Products</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Resources</h3>
+        <ul class="list">
+          <li><a href="#">Help Center.</a></li>
+          <li><a href="#">Pricing.</a></li>
+          <li><a href="#">Services.</a></li>
+          <li><a href="#">Contact Us.</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Subscribe</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+
+      </div>
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
